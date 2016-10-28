@@ -1,5 +1,9 @@
 require "sinatra"
 
 get "/" do 
-	"helloworld"
+"helloworld"
+end
+
+get "/a" do
+"a"
 end
