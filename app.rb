@@ -1,9 +1,7 @@
 require "sinatra"
 
 get "/" do 
-"helloworld"
+	erb:index
 end
 
-get "/a" do
-"a"
-end
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+ 
+  <h1>得点記入</h1>
+  <form action="confirm" method="POST">
+    <div>
+      学校名:
+      武庫東<input type="radio" name="school" value="mukohigashi">
+      南武庫之荘<input type="radio" name="school" value="nannbu">
+      武庫<input type="radio" name="school" value="muko">
+      常陽<input type="radio" name="school" value="joyo">
+    </div>
+    <div>
+     得点:
+     <table>
+     <tr><td>国語<input type = "number" name = "japanese" min="0" max="100" step="1"></td></tr>
+     <tr><td>数学<input type = "number" name = "math" min="0" max="100" step="1"></td></tr>
+     <tr><td>英語<input type = "number" name = "english" min="0" max="100" step="1"></td></tr>
+     <tr><td>理科<input type = "number" name = "science" min="0" max="100" step="1"></td></tr>
+     <tr><td>社会<input type = "number" name = "social" min="0" max="100" step="1"></td></tr>
+     </table>
+   </div>
+   <div>
+      <input type="submit" id="submit" value="登録する" />
+   </div>
+</form>
+</body>
+</html>
+
