@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ryoma</title>
+  <link rel="stylesheet" href="/css/home.css" />
+  
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+        <ul class="header-right">
+         <li><a href ="/">トップページ</a></li>
+          <li><a href ="/score_write">得点記入</a></li>
+        </ul>
+    </div>
+  </header>
+  
+  <div class="container">
+   <%= yield %>
+  </div>
+
+  <div class="container">
+    <footer class="footer">
+      <div class="small">
+        &copy; ryoma
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
