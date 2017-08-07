@@ -1,6 +1,6 @@
-#事前課題DB
+# 事前課題DB
 
-###1.
+### 1.
 ```sql
 -- orders table
 CREATE TABLE orders(
@@ -38,7 +38,7 @@ CREATE TABLE products(
 	);
 	
 ```
-###2.
+### 2.
 ```sql
 SELECT SUM(number)
 FROM prodcts
@@ -46,7 +46,7 @@ INNER JOIN order_details
 ON products.product_id = order_details.product_id
 WHERE product_name = "シャツ"
 ```
-###3.
+### 3.
 ```sql
 SELECT SUM(product_price*number)
 FROM order_details
@@ -54,7 +54,7 @@ INNER JOIN products
 ON order_details.product_id = products.product_id
 WHERE id = 1
 ```
-###4.
+### 4.
 ```sql
 INSERT INTO customers VALUES(null,"z本舗","東京都");
 INSERT INTO products VALUES(null,"シャツ",5000);
