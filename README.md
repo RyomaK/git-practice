@@ -30,7 +30,7 @@ __OAuth認証__
 
 
 リクエスト成功した時(HTTPステータスコードは200)の  
-__GET favorites/list__のサンプル   
+__GET favorites/list__ のサンプル   
 
 ```JSON
 [
