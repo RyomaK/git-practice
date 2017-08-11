@@ -29,8 +29,8 @@ __OAuth認証__
 
 
 
-リクエスト成功した時の__GET favorites/list__のサンプル 
-HTTPステータスコードは200です．
+リクエスト成功した時(HTTPステータスコードは200)の  
+__GET favorites/list__のサンプル   
 
 ```JSON
 [
